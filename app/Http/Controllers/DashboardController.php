@@ -33,6 +33,7 @@ class DashboardController extends Controller
                 'created_at' => $item->ID,
             ];
         });
+        
 
         $aktivitas = collect()
             ->merge($siswa)
